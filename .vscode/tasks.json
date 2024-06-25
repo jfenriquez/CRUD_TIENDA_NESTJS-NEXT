@@ -5,7 +5,7 @@
             "type": "shell",
             "label": "ejecuntando frontend",
             "command": "npm",
-            "args": ["run", "dev"],
+            "args": ["install", "&&", "npm","run", "dev"],
             "options": {
                 "cwd": "${workspaceFolder}/FRONTEND"
             },
@@ -17,7 +17,7 @@
             "type": "shell",
             "label": "ejecutando backend dev",
             "command": "npm",
-            "args": ["run", "start:dev"],
+            "args": ["install", "&&", "npm","run", "start:dev"],
             "options": {
                 "cwd": "${workspaceFolder}/BACKEND"
             },
