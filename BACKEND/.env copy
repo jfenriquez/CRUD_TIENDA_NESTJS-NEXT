@@ -1,0 +1,25 @@
+DATABASE_URL='ddsdssssssssss'
+DATABASE_HOST='https://www.goo55555gle.com'
+DATABASE_PORT=5432
+TASKS='dsd1111115'
+DATABASE_NAME='STORE'
+   
+   
+
+PORT=80
+
+# database  
+DB_USR=postgres
+DB_PASSWORD=postgres
+DB_HOST='localhost'
+DB_NAME='postgres'
+DB_PORT=5432
+
+
+# jwt keys mail 
+API_KEY='sssddfff123'
+JWT_SECRET='018493bbc8a8662e2e9c970325cd4b9ab6d3c3d4f7e12c1fb6a1dad763a53478'
+EMAIL='cobragerc@gmail.com'
+PASS_EMAIL='crljmfcooqlbjbel'
+LINK_FRONTEND_RECOVERY='htttp://mifrontend/recovery?token'
+LINK_FRONTEND='htttp://localhost:3000/'

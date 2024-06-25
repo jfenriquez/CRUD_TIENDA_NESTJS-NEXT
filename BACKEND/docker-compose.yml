@@ -1,0 +1,43 @@
+version: '3.9'
+services:
+  postgres:
+    image: postgres:14.2
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+      POSTGRES_PASSWORD: postgres
+     
+    ports:
+      - 5432:5432
+    
+    networks:
+      mynetwork:
+        ipv4_address: 192.168.11.2
+
+
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    
+    
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: mypassword
+      PGADMIN_DATABASE: mydatabase
+    networks:
+      mynetwork:
+        ipv4_address: 192.168.11.3
+
+    ports:
+      - 8080:80
+    
+
+
+networks:
+  mynetwork:
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.11.0/24

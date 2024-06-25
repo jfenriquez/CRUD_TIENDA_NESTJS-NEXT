@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "ejecuntando frontend",
+            "command": "npm",
+            "args": ["run", "dev"],
+            "options": {
+                "cwd": "${workspaceFolder}/FRONTEND"
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            },            
+        },
+        {
+            "type": "shell",
+            "label": "ejecutando backend dev",
+            "command": "npm",
+            "args": ["run", "start:dev"],
+            "options": {
+                "cwd": "${workspaceFolder}/BACKEND"
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            },            
+        }
+    ]
+
+}
