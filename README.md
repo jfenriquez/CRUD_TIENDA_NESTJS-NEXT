@@ -1,7 +1,7 @@
 
 <p align="center">Puedes ver este video para obtener más información: </p>
-[![PRUEBA VIDEO](https://img.youtube.com/vi/cwSxGmKI3uc/0.jpg)](https://youtu.be/cwSxGmKI3uc)
 
+[![PRUEBA VIDEO](https://img.youtube.com/vi/cwSxGmKI3uc/0.jpg)](https://youtu.be/cwSxGmKI3uc)
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
